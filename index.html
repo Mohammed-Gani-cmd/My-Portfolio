@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A Minecraft-inspired personal portfolio." />
+    <title>Mohammed Gani | Blockfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="cursor-light" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Go to home"><span class="brand-cube"></span> BLOCKFOLIO</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav">MENU</button>
+      <nav id="nav" class="nav" aria-label="Main navigation">
+        <a href="#about">Player Card</a>
+        <a href="#projects">Builds</a>
+        <a href="#journey">Quest Log</a>
+        <a href="#certs">Achievements</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section-shell">
+        <div class="sun" aria-hidden="true"></div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR NEW QUESTS</p>
+          <h1>I build <span>intelligent</span><br />digital worlds.</h1>
+          <p class="hero-description">I’m <strong>Mohammed Gani</strong>, an IT student and developer building secure, useful software with AI, cloud, and data at its core.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my builds <span>→</span></a>
+          <a class="button button-ghost" href="mailto:mohammedgani2102@gmail.com">Send a signal</a>
+          </div>
+        </div>
+        <div class="hero-scene reveal" aria-label="A block-style floating island illustration">
+          <div class="cloud cloud-one"></div><div class="cloud cloud-two"></div>
+          <div class="island">
+            <div class="tree tree-large"><i></i><b></b><em></em></div>
+            <div class="tree tree-small"><i></i><b></b><em></em></div>
+            <div class="house"><span class="roof"></span><span class="window"></span><span class="door"></span></div>
+            <div class="waterfall"></div>
+          </div>
+          <div class="scene-label">SPAWN POINT<br /><small>01 / 04</small></div>
+        </div>
+        <div class="scroll-hint">SCROLL TO EXPLORE <span></span></div>
+      </section>
+
+      <section id="about" class="about section-shell">
+        <div class="section-marker"><span>01</span><i></i><p>PLAYER CARD</p></div>
+        <div class="about-grid">
+          <div class="profile-card reveal">
+            <div class="card-top"><span>VIT '27</span><span class="hearts">♥ ♥ ♥ ♥ ♥</span></div>
+            <div class="avatar" aria-hidden="true"><div class="avatar-hair"></div><div class="avatar-face"><i></i><b></b></div><div class="avatar-shirt"></div></div>
+            <div class="card-name"><strong>MOHAMMED GANI</strong><span>Developer · IT Student · Builder</span></div>
+            <div class="stats"><div><span>FOCUS</span><b>AI + SEC</b></div><div><span>BUILDS</span><b>03</b></div><div><span>GRAD</span><b>2027</b></div></div>
+          </div>
+          <div class="about-copy reveal">
+            <p class="eyebrow">THE LORE</p>
+            <h2>More than lines<br />of <span>code.</span></h2>
+            <p>I’m studying Information Technology at Vellore Institute of Technology, where I’m building a foundation in algorithms, databases, machine learning, computer networks, and software engineering.</p>
+            <p>I like systems that solve practical problems: an adaptive AI interviewer, a securely encrypted vault, and data workflows that reveal patterns at scale.</p>
+            <div class="skill-list"><span>PYTHON</span><span>REACT.JS</span><span>RAG + LLMs</span><span>CLOUD</span><span>CYBERSECURITY</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section-shell">
+        <div class="section-marker"><span>02</span><i></i><p>FEATURED BUILDS</p></div>
+        <div class="section-heading reveal"><h2>Things I’ve<br /><span>built from scratch.</span></h2><p>Every project starts with a block. Here are a few worlds I’ve brought to life.</p></div>
+        <div class="project-grid">
+          <article class="project-card project-moss reveal">
+            <div class="project-art moss-art"><div class="moss-window"></div><div class="moss-plant"></div><div class="moss-orb"></div></div>
+            <div class="project-meta"><span>01 / AI PLATFORM</span><a href="mailto:mohammedgani2102@gmail.com?subject=AI%20Interviewer%20Project" aria-label="Ask about the AI Interviewer project">↗</a></div>
+            <h3>AI Interviewer</h3><p>A resume-aware mock interview platform with adaptive questions, voice interaction, and real-time performance feedback.</p><div class="tags"><span>PYTHON</span><span>FLASK</span><span>LLAMAINDEX</span></div>
+          </article>
+          <article class="project-card project-neon reveal">
+            <div class="project-art neon-art"><div class="neon-screen"><i></i><b></b><em></em></div><div class="neon-keyboard"></div></div>
+            <div class="project-meta"><span>02 / SECURITY TOOL</span><a href="mailto:mohammedgani2102@gmail.com?subject=Secure%20Password%20Manager%20Project" aria-label="Ask about the Secure Password Manager project">↗</a></div>
+            <h3>Secure Vault</h3><p>A cross-platform password manager with an encrypted local vault, two-factor authentication, and Google Drive backup.</p><div class="tags"><span>PYTHON</span><span>PYQT6</span><span>AES-GCM</span></div>
+          </article>
+          <article class="project-card project-sand reveal">
+            <div class="project-art sand-art"><div class="sand-sun"></div><div class="sand-dune dune-one"></div><div class="sand-dune dune-two"></div><div class="sand-arch"></div></div>
+            <div class="project-meta"><span>03 / DATA ANALYSIS</span><a href="mailto:mohammedgani2102@gmail.com?subject=Fake%20Account%20Detection%20Project" aria-label="Ask about the Fake Account Detection project">↗</a></div>
+            <h3>Fake Account Detection</h3><p>Behavioral analysis of real and fake social profiles using Hadoop MapReduce and Hive at scale.</p><div class="tags"><span>HADOOP</span><span>HIVE</span><span>PYTHON</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="journey" class="journey section-shell">
+        <div class="section-marker"><span>03</span><i></i><p>QUEST LOG</p></div>
+        <div class="journey-wrap"><div class="journey-copy reveal"><p class="eyebrow">THE PATH SO FAR</p><h2>Every level<br />taught me <span>something.</span></h2></div>
+          <ol class="timeline">
+            <li class="reveal"><span class="timeline-year">NOW</span><div><h3>B.Tech in Information Technology</h3><p>Building secure, intelligent products while studying at Vellore Institute of Technology.</p></div></li>
+            <li class="reveal"><span class="timeline-year">2026</span><div><h3>Cloud, AI &amp; Security Path</h3><p>Earned credentials across AWS, Azure, cybersecurity, responsible AI, and OpenAI API development.</p></div></li>
+            <li class="reveal"><span class="timeline-year">2025</span><div><h3>IT Intern</h3><p>Supported hardware, software, networking, and enterprise IT operations at RAK White Cement, UAE.</p></div></li>
+            <li class="reveal"><span class="timeline-year">2027</span><div><h3>Next Quest: Graduation</h3><p>Preparing to bring strong foundations in software, cloud, and applied AI into industry.</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="certs" class="certs section-shell">
+        <div class="section-marker"><span>04</span><i></i><p>ACHIEVEMENTS UNLOCKED</p></div>
+        <div class="certs-intro reveal"><h2>Proof I love<br />the <span>grind.</span></h2><p>A few things I’ve learned along the way.</p></div>
+        <div class="cert-grid">
+          <article class="cert reveal"><div class="badge badge-gold">✦</div><div><span>AWS ACADEMY</span><h3>Cloud Architecting</h3><p>2026 · 60 hours</p></div></article>
+          <article class="cert reveal"><div class="badge badge-blue">◆</div><div><span>MICROSOFT</span><h3>Azure Fundamentals</h3><p>2026</p></div></article>
+          <article class="cert reveal"><div class="badge badge-green">⬡</div><div><span>IBM SKILLSBUILD</span><h3>Cybersecurity Fundamentals</h3><p>2026</p></div></article>
+          <article class="cert reveal"><div class="badge badge-gold">✦</div><div><span>DATACAMP</span><h3>Working with the OpenAI API</h3><p>2026</p></div></article>
+          <article class="cert reveal"><div class="badge badge-blue">◆</div><div><span>DATACAMP</span><h3>AI Ethics</h3><p>2026</p></div></article>
+          <article class="cert reveal"><div class="badge badge-green">⬡</div><div><span>CISCO NETWORKING ACADEMY</span><h3>Introduction to Cybersecurity</h3><p>2026</p></div></article>
+        </div>
+      </section>
+
+      <section class="contact section-shell">
+        <div class="contact-block reveal"><p class="eyebrow">READY TO COLLABORATE?</p><h2>Let’s build<br />something <span>legendary.</span></h2><a href="mailto:mohammedgani2102@gmail.com" class="contact-email">mohammedgani2102@gmail.com <span>↗</span></a></div>
+        <div class="contact-blocks" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </section>
+    </main>
+
+    <footer><span>© 2026 MOHAMMED GANI</span><span>MADE WITH CURIOSITY &amp; MANY BLOCKS</span><div><a href="https://linkedin.com/in/mohammed-gani-basheer-mohamed">LINKEDIN</a><a href="mailto:mohammedgani2102@gmail.com">EMAIL</a></div></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
