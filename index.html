@@ -13,6 +13,14 @@
   <body>
     <div class="noise" aria-hidden="true"></div>
     <div class="cursor-light" aria-hidden="true"></div>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+    <div class="ambient-sparkles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <!-- Add an authorized copy of the requested track at this path to enable ambience. -->
+    <audio id="background-audio" loop preload="metadata" data-source="assets/subwoofer-lullaby.mp3"></audio>
+    <button class="sound-toggle" type="button" aria-pressed="false" aria-label="Turn on background music">
+      <span class="sound-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="sound-label">SOUND OFF</span>
+    </button>
     <header class="site-header">
       <a class="brand" href="#home" aria-label="Go to home"><span class="brand-cube"></span> BLOCKFOLIO</a>
       <button class="menu-toggle" aria-expanded="false" aria-controls="nav">MENU</button>
